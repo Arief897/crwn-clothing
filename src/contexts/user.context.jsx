@@ -2,7 +2,7 @@ import { createContext, useState, useEffect } from "react";
 import { onAuthStateChangedListener, createUserDocumentFromAuth } from "../utils/firebase/firebase.utils";
 
 export const UserContext = createContext({
-    currentUser: null,
+    currentUser: null, //diubah
     setCurrentUser: () => null //() => null or just 'null' is working the same way
 });
 
