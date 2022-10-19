@@ -29,14 +29,16 @@ const clearCartItem = (cartItems, cartItemToClear) => cartItems.filter(cartItem 
 
 
 export const CartContext = createContext({
-    isCartOpen: false,
-    setIsCartOpen: () => {},
-    cartItems: [],
-    addItemToCart: () => {},
-    removeItemFromCart: () => {},
-    cartCount: 0,
-    clearItemFromCart : () => {},
-    cartTotal: 0
+    // isCartOpen: false,
+    // setIsCartOpen: () => {},
+    // cartItems: [],
+    // addItemToCart: () => {},
+    // removeItemFromCart: () => {},
+    // cartCount: 0,
+    // clearItemFromCart : () => {},
+    // cartTotal: 0
+    //ini sama sekali ga guna, contoh: di sini ditulis removeItemFromCart tapi di bawah ditulis removeItemToCart, terus yang diakses di file lain removeItemToCart
+    // di comment out pun ga masalah
 });
 
 export const CartProvider = ({children}) => {
